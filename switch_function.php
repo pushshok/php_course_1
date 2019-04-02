@@ -37,9 +37,9 @@
 			return $z;
 	}
 
-	$a = int rand(0, 100);
-	$b = int rand(0, 100);
-	$operation = "plus";
+	$a = rand(0, 100);
+	$b = rand(0, 100);
+	$operation = "umnoj";
 	
 	
 	echo mathOperation($a, $b, $operation);

@@ -1,6 +1,6 @@
 <?php
 		
-	$a = int rand(0, 15);
+	$a = rand(0, 15);
 	
 	switch (($a >= 0) || ($a <= 15)){ 
 	   case $a == 0 : 
@@ -19,21 +19,21 @@
 			echo "6<br />"; 
 	   case $a == 7 : 
 			echo "7<br />"; 
-	case $a == 8 : 
+	   case $a == 8 : 
 			echo "8<br />"; 
-	case $a == 9 : 
+	   case $a == 9 : 
 			echo "9<br />"; 
-	case $a == 10 : 
+	   case $a == 10 : 
 			echo "10<br />"; 
-	case $a = 11 : 
+	   case $a = 11 : 
 			echo "11<br />"; 
-	case $a = 12 : 
+	   case $a = 12 : 
 			echo "12<br />"; 
-			   case $a = 13 : 
+	   case $a = 13 : 
 			echo "13<br />"; 
-			   case $a = 14 : 
+	   case $a = 14 : 
 			echo "14<br />";
-			   case $a = 15 : 
+	   case $a = 15 : 
 			echo "15<br />";		
 	} 
 ?>	

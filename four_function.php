@@ -16,13 +16,13 @@
 		return $a * $b;
 	}
 	
-	$a = int rand(0, 100);
-	$b = int rand(0, 100);
+	$a = rand(0, 100);
+	$b = rand(0, 100);
 	
 	
-	echo plus($a, $b);
-	echo minus($a, $b);
-	echo delit($a, $b);
-	echo umnoj($a, $b);
+	echo plus($a, $b)."<br />";
+	echo minus($a, $b)."<br />";
+	echo delit($a, $b)."<br />";
+	echo umnoj($a, $b)."<br />";
 	
 ?>	
